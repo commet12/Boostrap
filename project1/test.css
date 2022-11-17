@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Muli:wght@400;500&display=swap");
+
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  background-color: #eeeeee;
+}
+
+.containerFluid {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.containerFluid h2 {
+  color: hotpink;
+  position: relative;
+  width: 24rem;
+}
+
+.containerFluid h2::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 12px;
+  width: 67px;
+  height: 2px;
+  background-color: hotpink;
+}
+
+.accordion {
+  width: 100%;
+  padding: 0 5px;
+  border: 2px solid #6db5ff;
+  cursor: pointer;
+  border-radius: 50px;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+.accordion .icon1 {
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    background: url(https://raw.githubusercontent.com/Tusar78/responsive-accordion/main/images/toggle-bg.png)
+      no-repeat 8px 7px #6db5ff;
+    border-radius: 50%;
+    float: left;
+    transition: all 0.5s ease-in;
+  }
+  .accordion .icon2 {
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    background: url(./ALDO.jpg)
+      no-repeat 8px 7px #6db5ff;
+    border-radius: 50%;
+    float: left;
+    transition: all 0.5s ease-in;
+  }
+  .accordion .icon3 {
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    background: url(./bones.jpg)
+      no-repeat 0px 0px #6db5ff;
+    border-radius: 50%;
+    float: left;
+    transition: all 0.5s ease-in;
+  }
+  .accordion .icon4 {
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    background: url(./DC.jpg)
+      no-repeat 8px 7px #6db5ff;
+    border-radius: 50%;
+    float: left;
+    transition: all 0.5s ease-in;
+  }

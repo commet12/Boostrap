@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+
+body {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.p-about {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+}
+.header {
+    font-family: 'DynaPuff', cursive;
+    width: 100%;
+    background-image: linear-gradient(to right, #224ffe , #5a3d4f);
+}
+.cardabout {
+    font-family: 'New Rocker', cursive;
+}
+.skott {
+    background-color: blueviolet;
+    color: white;
+}
+/* Starting */
+@media screen and (max-width: 978px) {
+    .bayayi {
+        position: relative;
+    }
+    .h1forfighters {
+        font-size: large;
+        margin-top: 100px;
+        align-items: center;
+        
+    }
+}
+@media screen and (max-width: 1000px) {
+    .conto1 {
+        margin-left: 50px;
+    }
+    .textfighters {
+        font-family: 'New Rocker', cursive;
+        font-size: 5vh;
+    }
+    .textfighters1 {
+        font-family: 'New Rocker', cursive;
+        font-size: 5vh;
+    }
+    .textfighters2 {
+        font-family: 'New Rocker', cursive;
+        font-size: 4vh;
+    }
+}
+@media screen and (min-width:1250px) {
+    .h1forfighters {
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 250px;
+        font-family: 'DynaPuff', cursive;
+        font-size: 5vw;
+
+    }
+    .listforfighters {
+        position: absolute;
+        margin-top: 420px;
+        
+    }
+    .photosforfighters {
+        width: 200px;
+        height: 200px;
+        display: flex;
+    }
+    .img1 {
+        margin-left: 55px;
+    }
+    .textfighters {
+        font-family: 'New Rocker', cursive;
+        font-size: 15vh;
+    }
+    .textfighters1 {
+        font-family:'New Rocker', cursive ;
+        font-size: 13vh;
+    }
+    .textfighters2 {
+        font-family:'New Rocker', cursive ;
+        font-size: 10vh;
+    }
+}
